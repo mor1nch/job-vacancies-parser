@@ -10,11 +10,7 @@ new_vacancy = Vacancies("Программист С++", "<https://hh.ru/vacancy/9
                         "Требуемый опыт работы: 3–6 лет")
 
 json_saver = JSONSaver()
-json_saver.add_vacancy(new_vacancy)
 json_saver.get_vacancies_by_salary("150 000-230 000 руб.")
-
-
-json_saver.delete_vacancy(new_vacancy)
 
 
 def main():
