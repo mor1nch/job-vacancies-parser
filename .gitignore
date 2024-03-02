@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+env/
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+
+# User-specific files
+.idea/
+.vscode/
+
+# Package distribution
+/dist/
+/build/
+
+# Dependency directories
+/lib/
+/libs/
+/site-packages/
+/.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Miscellaneous
+*.swp
+.DS_Store
